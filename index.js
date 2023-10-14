@@ -14,7 +14,7 @@ if (!config.get("jwtPrivateKey")) {
 }
 
 mongoose
-  .connect("mongodb://185.20.227.120/skillsprint")
+  .connect("mongodb://127.0.0.1/rzd")
   .then(() => console.log("DB connection succesful..."))
   .catch((e) => console.log("DB connection failed..." + e.message));
 
@@ -22,7 +22,6 @@ mongoose
 
 app.use("/api/users", userRouter);
 app.use("/api/auth", authRouter);
-app.use("/api/cases", casesRouter)
 app.use("/", homeRouter);
 require("./startup/prod")(app);
 

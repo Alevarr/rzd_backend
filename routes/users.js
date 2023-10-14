@@ -26,9 +26,7 @@ router.post("/", async (req, res) => {
   const userObject = new User({
     name: req.body.name,
     email: req.body.email,
-    role: req.body.role,
     password: password,
-    balance: 0
   });
   userObject
     .save()
