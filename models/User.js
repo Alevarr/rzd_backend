@@ -23,82 +23,83 @@ const userSchema = mongoose.Schema({
     type: String,
     required: true
   },
-  numberOfTrips: Number,
+  class: Number,
+  numberOfTrips: {type: Number, required: true, default: 0},
   options: {
     travel : {
-      description: "Много путешествую",
+      description:{ type: String, enum: "Много путешествую", required: true, default: "Много путешествую"},
       checked : {type: Boolean, required: true, default: false}
     },
     silence : {
-      description: "Предпочитаю тишину",
+      description:{ type: String, enum: "Предпочитаю тишину", required: true, default: "Предпочитаю тишину"},
       checked : {type: Boolean, required: true, default: false}
     },
     sleep : {
-      description: "Желаю выспаться",
+      description:{ type: String, enum: "Желаю выспаться", required: true, default: "Желаю выспаться"},
       checked : {type: Boolean, required: true, default: false}
     },
     uncommunicative : {
-      description: "Малообщительный",
+      description:{ type: String, enum: "Малообщительный", required: true, default: "Малообщительный"},
       checked : {type: Boolean, required: true, default: false}
     },
     read : {
-      description: "Люлю читать",
+      description:{ type: String, enum: "Люлю читать", required: true, default: "Люлю читать"},
       checked : {type: Boolean, required: true, default: false}
     },
     gardening : {
-      description: "Занимаюсь садоводством",
+      description:{ type: String, enum: "Занимаюсь садоводством", required: true, default: "Занимаюсь садоводством"},
       checked : {type: Boolean, required: true, default: false}
     },
     cars : {
-      description: "Разбираюсь в автомобилях",
+      description:{ type: String, enum: "Разбираюсь в автомобилях", required: true, default: "Разбираюсь в автомобилях"},
       checked : {type: Boolean, required: true, default: false}
     },
     arts : {
-      description: "Люблю искусство/творчество",
+      description:{ type: String, enum: "Люблю искусство/творчество", required: true, default: "Люблю искусство/творчество"},
       checked : {type: Boolean, required: true, default: false}
     },
     sports : {
-      description: "Занимаюсь спортом",
+      description:{ type: String, enum: "Занимаюсь спортом", required: true, default: "Занимаюсь спортом"},
       checked : {type: Boolean, required: true, default: false}
     },
     activeLifeStyle : {
-      description: "Веду активный образ жизни",
+      description:{ type: String, enum: "Веду активный образ жизни", required: true, default: "Веду активный образ жизни"},
       checked : {type: Boolean, required: true, default: false}
     },
     work : {
-      description: "Желаю работать в тишине",
+      description:{ type: String, enum: "Желаю работать в тишине", required: true, default: "Желаю работать в тишине"},
       checked : {type: Boolean, required: true, default: false}
     },
     withFriends : {
-      description: "Еду с друзьями",
+      description:{ type: String, enum: "Еду с друзьями", required: true, default: "Еду с друзьями"},
       checked : {type: Boolean, required: true, default: false}
     },
     communicative : {
-      description: "Общительный",
+      description:{ type: String, enum: "Общительный", required: true, default: "Общительный"},
       checked : {type: Boolean, required: true, default: false}
     },
     youngAge : {
-      description: "Предпочту молодых попутчиков",
+      description:{ type: String, enum: "Предпочту молодых попутчиков", required: true, default: "Предпочту молодых попутчиков"},
       checked : {type: Boolean, required: true, default: false}
     },
-    MidAge : {
-      description: "Предпочту попутчиков среднего возраста",
+    midAge : {
+      description:{ type: String, enum: "Предпочту попутчиков среднего возраста", required: true, default: "Предпочту попутчиков среднего возраста"},
       checked : {type: Boolean, required: true, default: false}
     },
     oldAge : {
-      description: "Предпочту пожилых попутчиков",
+      description:{ type: String, enum: "Предпочту пожилых попутчиков", required: true, default: "Предпочту пожилых попутчиков"},
       checked : {type: Boolean, required: true, default: false}
     },
     withChildren : {
-      description: "Еду с детьми",
+      description:{ type: String, enum: "Еду с детьми", required: true, default: "Еду с детьми"},
       checked : {type: Boolean, required: true, default: false}
     },
     noChildren : {
-      description: "Без детей в вагоне",
+      description:{ type: String, enum: "Без детей в вагоне", required: true, default: "Без детей в вагоне"},
       checked : {type: Boolean, required: true, default: false}
     },
     noJews : {
-      description: "Ненавижу, блять, евреев",
+      description:{ type: String, enum: "Ненавижу, блять, евреев", required: true, default: "Ненавижу, блять, евреев"},
       checked : {type: Boolean, required: true, default: false}
     },
   }
@@ -115,6 +116,8 @@ const validateUser = (user) => {
     name: Joi.string().required(),
     email: Joi.string().email().required(),
     password: Joi.string().required(),
+    age: Joi.number().min(1).max(106).required(),
+    sex: Joi.string().valid("m", "f").required()
   });
   return schema.validate(user);
 };

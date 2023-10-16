@@ -27,6 +27,8 @@ router.post("/", async (req, res) => {
     name: req.body.name,
     email: req.body.email,
     password: password,
+    age: req.body.age,
+    sex: req.body.sex
   });
   userObject
     .save()
@@ -34,8 +36,24 @@ router.post("/", async (req, res) => {
       res
         .send({"x-auth-token": result.generateAuthToken()})
     )
-    .catch(() => res.status(400).send("Bad request"));
+    .catch((e) => res.status(400).send("Bad request: " + e.message));
 });
+
+router.post("/me", auth, async (req, res) => {
+  req.body = req.body.params;
+  if(!req.body.options) return res.status(400).send("Bad request");
+  console.log(req.body.options)
+  User.updateOne({
+    _id: req.user._id
+  },
+  {
+    options: {...req.body.options}
+  }, {new: true}
+  ).then(result => res.send(result)).catch(e => res.status(404).send("Not found " + e.message))
+
+
+
+})
 
 router.get("/me", auth, async (req, res) => {
   req.body = req.body.params;
@@ -43,7 +61,7 @@ router.get("/me", auth, async (req, res) => {
   const user = await User.findOne({
     _id: req.user._id,
   });
-  res.send(_.pick(user, ["name", "email", "role", "balance"]))
+  res.send(_.pick(user, ["name", "email", "age", "sex", "options", "class", "numberOfTrips"]))
 })
 
 module.exports = router;
