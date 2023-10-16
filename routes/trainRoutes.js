@@ -27,5 +27,10 @@ router.post("/", async (req, res) => {
     )
     .catch((error) => res.status(400).send("Bad request " + error));
 });
+router.get("/", async (req, res) => {
+  req.body = req.body.params;
+
+  TrainRoute.find({}).then(result => res.send({results: result})).catch(e => res.status(400).send(e.message))
+});
 
 module.exports = router;

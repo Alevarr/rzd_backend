@@ -2,8 +2,8 @@ const Joi = require("joi")
 const mongoose = require("mongoose"); 
 
 const trainRouteSchema = mongoose.Schema({
-    departureDate: {type: Date, required: true},
-    arrivalDate: {type: Date, required: true},
+    departureDate: {type: Number, required: true},
+    arrivalDate: {type: Number, required: true},
     departureStation: {type: String, required: true},
     arrivalStation: {type: String, required: true},
     trainName: {type: String, required: true},
