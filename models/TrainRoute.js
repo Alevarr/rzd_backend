@@ -9,8 +9,9 @@ const trainRouteSchema = mongoose.Schema({
     trainName: {type: String, required: true},
     features: [{slug: {type: String, required: true}}],
     carriages: [{
+        number: {type: Number, required: true},
         type: {type: String, required: true},
-        type_slug: {type: String, required: true},
+        typeSlug: {type: String, required: true},
         seats: [{
             price: {type: Number, required: true},
             isBooked: {type: Boolean, required: true, default: false},

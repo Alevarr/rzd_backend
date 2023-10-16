@@ -4,7 +4,7 @@ const app = express();
 const homeRouter = require("./routes/home");
 const userRouter = require("./routes/users");
 const authRouter = require("./routes/auth");
-const casesRouter = require("./routes/cases");
+const trainRoutesRouter = require("./routes/trainRoutes")
 const mongoose = require("mongoose");
 const cors = require("cors");
 
@@ -22,6 +22,7 @@ mongoose
 
 app.use("/api/users", userRouter);
 app.use("/api/auth", authRouter);
+app.use("/api/trainRoutes", trainRoutesRouter)
 app.use("/", homeRouter);
 require("./startup/prod")(app);
 
