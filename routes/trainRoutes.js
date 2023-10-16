@@ -6,7 +6,7 @@ const { TrainRoute, validate } = require("../models/TrainRoute");
 router.use(express.json());
 
 router.post("/", async (req, res) => {
-  req.body = req.body.params;
+  // req.body = req.body.params;
 
   const routeObject = new TrainRoute({
     departureDate: req.body.departureDate,
@@ -18,11 +18,14 @@ router.post("/", async (req, res) => {
     carriages: req.body.carriages
     
   });
+  console.log(routeObject.carriages)
   routeObject
     .save()
     .then((result) =>
       res
         .send(result)
     )
-    .catch(() => res.status(400).send("Bad request"));
+    .catch((error) => res.status(400).send("Bad request " + error));
 });
+
+module.exports = router;

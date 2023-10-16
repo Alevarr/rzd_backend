@@ -1,0 +1,1350 @@
+{
+    "departureDate" : 1702526400,
+    "arrivalDate" : 1702567200,
+    "departureStation": "Москва Казанская",
+    "arrivalStation" : "Казань Пасс",
+    "trainName" : "016А  «Арктика»",
+    "features" : [
+        "cant",
+        "rest",
+        "ent",
+        "spec",
+        "firm",
+        "dis"
+    ],
+    "carriages" : [
+        {
+            "number": 2,
+            "type" : "Купе 2Т",
+            "typeSlug": "2Т",
+            "seats" : [
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                }
+            ]
+        },
+        {
+            "number": 3,
+            "type" : "Купе 2Э",
+            "typeSlug": "2Э",
+            "seats" : [
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                }
+            ]
+        },
+        {
+            "number" : 5,
+            "type " : "СВ 1Т",
+            "typeSlug" : "1Т",
+            "seats" : [
+                {
+                    "price" : 9901,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 9901,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 9901,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 9901,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 9901,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 9901,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 9901,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 9901,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 9901,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 9901,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 9901,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 9901,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 9901,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 9901,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 9901,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 9901,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 9901,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 9901,
+                    "isBooked": false,
+                    "userBooked" : null
+                }
+            ]
+        },
+        {
+            "number" : 4,
+            "type " : "СВ 1Т",
+            "typeSlug" : "1Т",
+            "seats" : [
+                {
+                    "price" : 9901,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 9901,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 9901,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 9901,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 9901,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 9901,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 9901,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 9901,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 9901,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 9901,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 9901,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 9901,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 9901,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 9901,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 9901,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 9901,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 9901,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 9901,
+                    "isBooked": false,
+                    "userBooked" : null
+                }
+            ]
+        },
+        {
+            "number": 9,
+            "type" : "Купе 2Э",
+            "typeSlug": "2Э",
+            "seats" : [
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                }
+            ]
+        },
+        {
+            "number" : 7,
+            "type" : "Купе (для инвалидов) 2К",
+            "typeSlug" : "2К",
+            "seats" : [
+                {
+                    "price" : 2048,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 2048,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 2048,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 2048,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 2048,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 2048,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 2048,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 2048,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 2048,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 2048,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 2048,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 2048,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 2048,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 2048,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 2048,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 2048,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 2048,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 2048,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 2048,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 2048,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 2048,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 2048,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 2048,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 2048,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 2048,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 2048,
+                    "isBooked": false,
+                    "userBooked" : null
+                }
+            ]
+        },
+        {
+            "number": 8,
+            "type" : "Купе 2Т",
+            "typeSlug": "2Т",
+            "seats" : [
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                }
+            ]
+        },
+        {
+            "number": 10,
+            "type" : "Купе 2Т",
+            "typeSlug": "2Т",
+            "seats" : [
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                }
+            ]
+        },
+        {
+            "number": 11,
+            "type" : "Купе 2Э",
+            "typeSlug": "2Э",
+            "seats" : [
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                },
+                {
+                    "price" : 3377,
+                    "isBooked": false,
+                    "userBooked" : null
+                }
+            ]
+        }
+    ]
+}

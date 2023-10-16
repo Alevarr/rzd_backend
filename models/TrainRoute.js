@@ -7,7 +7,7 @@ const trainRouteSchema = mongoose.Schema({
     departureStation: {type: String, required: true},
     arrivalStation: {type: String, required: true},
     trainName: {type: String, required: true},
-    features: [{slug: {type: String, required: true}}],
+    features: {type: [String], required: true},
     carriages: [{
         number: {type: Number, required: true},
         type: {type: String, required: true},
