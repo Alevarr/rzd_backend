@@ -2,6 +2,7 @@ const _ = require("lodash");
 const express = require("express");
 const router = express.Router();
 const { TrainRoute, validate } = require("../models/TrainRoute");
+const { isValidObjectId } = require("mongoose");
 
 router.use(express.json());
 
@@ -27,10 +28,16 @@ router.post("/", async (req, res) => {
     )
     .catch((error) => res.status(400).send("Bad request " + error));
 });
+
 router.get("/", async (req, res) => {
-  req.body = req.body.params;
 
   TrainRoute.find({}).then(result => res.send({results: result})).catch(e => res.status(400).send(e.message))
 });
+
+router.get("/:id", async (req, res) => {
+  const id = req.params.id;
+  if(!isValidObjectId(id)) return res.status(400).send("Bad request");
+  TrainRoute.findById(id).then(result => res.send(result)).catch(e => res.status(400).send(e.message))
+})
 
 module.exports = router;
