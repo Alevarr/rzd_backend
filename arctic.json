@@ -681,146 +681,10 @@
                 }
             ]
         },
-        {
-            "number" : 7,
-            "type" : "Купе (для инвалидов) 2К",
-            "typeSlug" : "2К",
-            "seats" : [
-                {
-                    "price" : 4795,
-                    "isBooked": false,
-                    "userBooked" : null
-                },
-                {
-                    "price" : 4795,
-                    "isBooked": false,
-                    "userBooked" : null
-                },
-                {
-                    "price" : 4795,
-                    "isBooked": false,
-                    "userBooked" : null
-                },
-                {
-                    "price" : 4795,
-                    "isBooked": false,
-                    "userBooked" : null
-                },
-                {
-                    "price" : 4795,
-                    "isBooked": false,
-                    "userBooked" : null
-                },
-                {
-                    "price" : 4795,
-                    "isBooked": false,
-                    "userBooked" : null
-                },
-                {
-                    "price" : 4795,
-                    "isBooked": false,
-                    "userBooked" : null
-                },
-                {
-                    "price" : 4795,
-                    "isBooked": false,
-                    "userBooked" : null
-                },
-                {
-                    "price" : 4795,
-                    "isBooked": false,
-                    "userBooked" : null
-                },
-                {
-                    "price" : 4795,
-                    "isBooked": false,
-                    "userBooked" : null
-                },
-                {
-                    "price" : 4795,
-                    "isBooked": false,
-                    "userBooked" : null
-                },
-                {
-                    "price" : 4795,
-                    "isBooked": false,
-                    "userBooked" : null
-                },
-                {
-                    "price" : 4795,
-                    "isBooked": false,
-                    "userBooked" : null
-                },
-                {
-                    "price" : 4795,
-                    "isBooked": false,
-                    "userBooked" : null
-                },
-                {
-                    "price" : 4795,
-                    "isBooked": false,
-                    "userBooked" : null
-                },
-                {
-                    "price" : 4795,
-                    "isBooked": false,
-                    "userBooked" : null
-                },
-                {
-                    "price" : 4795,
-                    "isBooked": false,
-                    "userBooked" : null
-                },
-                {
-                    "price" : 4795,
-                    "isBooked": false,
-                    "userBooked" : null
-                },
-                {
-                    "price" : 4795,
-                    "isBooked": false,
-                    "userBooked" : null
-                },
-                {
-                    "price" : 4795,
-                    "isBooked": false,
-                    "userBooked" : null
-                },
-                {
-                    "price" : 4795,
-                    "isBooked": false,
-                    "userBooked" : null
-                },
-                {
-                    "price" : 4795,
-                    "isBooked": false,
-                    "userBooked" : null
-                },
-                {
-                    "price" : 4795,
-                    "isBooked": false,
-                    "userBooked" : null
-                },
-                {
-                    "price" : 4795,
-                    "isBooked": false,
-                    "userBooked" : null
-                },
-                {
-                    "price" : 4795,
-                    "isBooked": false,
-                    "userBooked" : null
-                },
-                {
-                    "price" : 4795,
-                    "isBooked": false,
-                    "userBooked" : null
-                }
-            ]
-        },
+        
         {
             "number" : 8,
-            "type " : "СВ 1Э",
+            "type" : "СВ 1Э",
             "typeSlug" : "1Э",
             "seats" : [
                 {
@@ -947,7 +811,7 @@
         },
         {
             "number" : 10,
-            "type " : "Плацкартный 3Б",
+            "type" : "Плацкартный 3Б",
             "typeSlug" : "3Б",
             "seats" : [
                 {
@@ -1224,7 +1088,7 @@
         },
         {
             "number" : 11,
-            "type " : "Плацкартный 3Б",
+            "type" : "Плацкартный 3Б",
             "typeSlug" : "3Б",
             "seats" : [
                 {
@@ -1501,7 +1365,7 @@
         },
         {
             "number" : 12,
-            "type " : "Плацкартный 3Э",
+            "type" : "Плацкартный 3Э",
             "typeSlug" : "3Э",
             "seats" : [
                 {
@@ -1778,7 +1642,7 @@
         },
         {
             "number" : 13,
-            "type " : "Плацкартный 3Э",
+            "type" : "Плацкартный 3Э",
             "typeSlug" : "3Э",
             "seats" : [
                 {

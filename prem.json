@@ -349,7 +349,7 @@
         },
         {
             "number" : 5,
-            "type " : "СВ 1Т",
+            "type" : "СВ 1Т",
             "typeSlug" : "1Т",
             "seats" : [
                 {
@@ -446,7 +446,7 @@
         },
         {
             "number" : 4,
-            "type " : "СВ 1Т",
+            "type" : "СВ 1Т",
             "typeSlug" : "1Т",
             "seats" : [
                 {
@@ -708,143 +708,7 @@
                 }
             ]
         },
-        {
-            "number" : 7,
-            "type" : "Купе (для инвалидов) 2К",
-            "typeSlug" : "2К",
-            "seats" : [
-                {
-                    "price" : 2048,
-                    "isBooked": false,
-                    "userBooked" : null
-                },
-                {
-                    "price" : 2048,
-                    "isBooked": false,
-                    "userBooked" : null
-                },
-                {
-                    "price" : 2048,
-                    "isBooked": false,
-                    "userBooked" : null
-                },
-                {
-                    "price" : 2048,
-                    "isBooked": false,
-                    "userBooked" : null
-                },
-                {
-                    "price" : 2048,
-                    "isBooked": false,
-                    "userBooked" : null
-                },
-                {
-                    "price" : 2048,
-                    "isBooked": false,
-                    "userBooked" : null
-                },
-                {
-                    "price" : 2048,
-                    "isBooked": false,
-                    "userBooked" : null
-                },
-                {
-                    "price" : 2048,
-                    "isBooked": false,
-                    "userBooked" : null
-                },
-                {
-                    "price" : 2048,
-                    "isBooked": false,
-                    "userBooked" : null
-                },
-                {
-                    "price" : 2048,
-                    "isBooked": false,
-                    "userBooked" : null
-                },
-                {
-                    "price" : 2048,
-                    "isBooked": false,
-                    "userBooked" : null
-                },
-                {
-                    "price" : 2048,
-                    "isBooked": false,
-                    "userBooked" : null
-                },
-                {
-                    "price" : 2048,
-                    "isBooked": false,
-                    "userBooked" : null
-                },
-                {
-                    "price" : 2048,
-                    "isBooked": false,
-                    "userBooked" : null
-                },
-                {
-                    "price" : 2048,
-                    "isBooked": false,
-                    "userBooked" : null
-                },
-                {
-                    "price" : 2048,
-                    "isBooked": false,
-                    "userBooked" : null
-                },
-                {
-                    "price" : 2048,
-                    "isBooked": false,
-                    "userBooked" : null
-                },
-                {
-                    "price" : 2048,
-                    "isBooked": false,
-                    "userBooked" : null
-                },
-                {
-                    "price" : 2048,
-                    "isBooked": false,
-                    "userBooked" : null
-                },
-                {
-                    "price" : 2048,
-                    "isBooked": false,
-                    "userBooked" : null
-                },
-                {
-                    "price" : 2048,
-                    "isBooked": false,
-                    "userBooked" : null
-                },
-                {
-                    "price" : 2048,
-                    "isBooked": false,
-                    "userBooked" : null
-                },
-                {
-                    "price" : 2048,
-                    "isBooked": false,
-                    "userBooked" : null
-                },
-                {
-                    "price" : 2048,
-                    "isBooked": false,
-                    "userBooked" : null
-                },
-                {
-                    "price" : 2048,
-                    "isBooked": false,
-                    "userBooked" : null
-                },
-                {
-                    "price" : 2048,
-                    "isBooked": false,
-                    "userBooked" : null
-                }
-            ]
-        },
+        
         {
             "number": 8,
             "type" : "Купе 2Т",

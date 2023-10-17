@@ -15,7 +15,7 @@
     "carriages" : [
         {
             "number" : 1,
-            "type " : "Плацкартный 3Э",
+            "type" : "Плацкартный 3Э",
             "typeSlug" : "3Э",
             "seats" : [
                 {
@@ -292,7 +292,7 @@
         },
         {
             "number" : 4,
-            "type " : "Плацкартный 3Б",
+            "type" : "Плацкартный 3Б",
             "typeSlug" : "3Б",
             "seats" : [
                 {
@@ -569,7 +569,7 @@
         },
         {
             "number" : 5,
-            "type " : "Плацкартный 3Э",
+            "type" : "Плацкартный 3Э",
             "typeSlug" : "3Э",
             "seats" : [
                 {
@@ -846,7 +846,7 @@
         },
         {
             "number" : 7,
-            "type " : "СВ 1Э",
+            "type" : "СВ 1Э",
             "typeSlug" : "1Э",
             "seats" : [
                 {
@@ -971,143 +971,7 @@
                 }
             ]
         },
-        {
-            "number" : 8,
-            "type" : "Купе (для инвалидов) 2К",
-            "typeSlug" : "2К",
-            "seats" : [
-                {
-                    "price" : 3225,
-                    "isBooked": false,
-                    "userBooked" : null
-                },
-                {
-                    "price" : 3225,
-                    "isBooked": false,
-                    "userBooked" : null
-                },
-                {
-                    "price" : 3225,
-                    "isBooked": false,
-                    "userBooked" : null
-                },
-                {
-                    "price" : 3225,
-                    "isBooked": false,
-                    "userBooked" : null
-                },
-                {
-                    "price" : 3225,
-                    "isBooked": false,
-                    "userBooked" : null
-                },
-                {
-                    "price" : 3225,
-                    "isBooked": false,
-                    "userBooked" : null
-                },
-                {
-                    "price" : 3225,
-                    "isBooked": false,
-                    "userBooked" : null
-                },
-                {
-                    "price" : 3225,
-                    "isBooked": false,
-                    "userBooked" : null
-                },
-                {
-                    "price" : 3225,
-                    "isBooked": false,
-                    "userBooked" : null
-                },
-                {
-                    "price" : 3225,
-                    "isBooked": false,
-                    "userBooked" : null
-                },
-                {
-                    "price" : 3225,
-                    "isBooked": false,
-                    "userBooked" : null
-                },
-                {
-                    "price" : 3225,
-                    "isBooked": false,
-                    "userBooked" : null
-                },
-                {
-                    "price" : 3225,
-                    "isBooked": false,
-                    "userBooked" : null
-                },
-                {
-                    "price" : 3225,
-                    "isBooked": false,
-                    "userBooked" : null
-                },
-                {
-                    "price" : 3225,
-                    "isBooked": false,
-                    "userBooked" : null
-                },
-                {
-                    "price" : 3225,
-                    "isBooked": false,
-                    "userBooked" : null
-                },
-                {
-                    "price" : 3225,
-                    "isBooked": false,
-                    "userBooked" : null
-                },
-                {
-                    "price" : 3225,
-                    "isBooked": false,
-                    "userBooked" : null
-                },
-                {
-                    "price" : 3225,
-                    "isBooked": false,
-                    "userBooked" : null
-                },
-                {
-                    "price" : 3225,
-                    "isBooked": false,
-                    "userBooked" : null
-                },
-                {
-                    "price" : 3225,
-                    "isBooked": false,
-                    "userBooked" : null
-                },
-                {
-                    "price" : 3225,
-                    "isBooked": false,
-                    "userBooked" : null
-                },
-                {
-                    "price" : 3225,
-                    "isBooked": false,
-                    "userBooked" : null
-                },
-                {
-                    "price" : 3225,
-                    "isBooked": false,
-                    "userBooked" : null
-                },
-                {
-                    "price" : 3225,
-                    "isBooked": false,
-                    "userBooked" : null
-                },
-                {
-                    "price" : 3225,
-                    "isBooked": false,
-                    "userBooked" : null
-                }
-            ]
-        },
+        
         {
             "number" : 9,
             "type" : "Купе 2Э",
@@ -1915,7 +1779,7 @@
         },
         {
             "number" : 15,
-            "type " : "Плацкартный 3Э",
+            "type" : "Плацкартный 3Э",
             "typeSlug" : "3Э",
             "seats" : [
                 {
@@ -2192,7 +2056,7 @@
         },
         {
             "number" : 18,
-            "type " : "Плацкартный 3Б",
+            "type" : "Плацкартный 3Б",
             "typeSlug" : "3Б",
             "seats" : [
                 {
