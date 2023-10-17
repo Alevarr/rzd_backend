@@ -74,10 +74,10 @@ const userSchema = mongoose.Schema({
       description:{ type: String, enum: "Еду с друзьями", required: true, default: "Еду с друзьями"},
       checked : {type: Boolean, required: true, default: false}
     },
-    communicative : {
-      description:{ type: String, enum: "Общительный", required: true, default: "Общительный"},
-      checked : {type: Boolean, required: true, default: false}
-    },
+    // communicative : {
+    //   description:{ type: String, enum: "Общительный", required: true, default: "Общительный"},
+    //   checked : {type: Boolean, required: true, default: false}
+    // },
     youngAge : {
       description:{ type: String, enum: "Предпочту молодых попутчиков", required: true, default: "Предпочту молодых попутчиков"},
       checked : {type: Boolean, required: true, default: false}
@@ -90,18 +90,18 @@ const userSchema = mongoose.Schema({
       description:{ type: String, enum: "Предпочту пожилых попутчиков", required: true, default: "Предпочту пожилых попутчиков"},
       checked : {type: Boolean, required: true, default: false}
     },
-    withChildren : {
-      description:{ type: String, enum: "Еду с детьми", required: true, default: "Еду с детьми"},
-      checked : {type: Boolean, required: true, default: false}
-    },
+    // withChildren : {
+    //   description:{ type: String, enum: "Еду с детьми", required: true, default: "Еду с детьми"},
+    //   checked : {type: Boolean, required: true, default: false}
+    // },
     noChildren : {
       description:{ type: String, enum: "Без детей в вагоне", required: true, default: "Без детей в вагоне"},
       checked : {type: Boolean, required: true, default: false}
-    },
-    noJews : {
-      description:{ type: String, enum: "Ненавижу, блять, евреев", required: true, default: "Ненавижу, блять, евреев"},
-      checked : {type: Boolean, required: true, default: false}
-    },
+    }
+    // noJews : {
+    //   description:{ type: String, enum: "Ненавижу, блять, евреев", required: true, default: "Ненавижу, блять, евреев"},
+    //   checked : {type: Boolean, required: true, default: false}
+    // },
   }
 });
 

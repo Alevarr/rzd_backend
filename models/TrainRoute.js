@@ -17,7 +17,33 @@ const trainRouteSchema = mongoose.Schema({
             isBooked: {type: Boolean, required: true, default: false},
             userBooked: {
                 email: String, 
-                options: [String]
+                options: {
+                    travel : {type: Boolean},
+                  silence : {type: Boolean},
+                  sleep : {type: Boolean},
+                  uncommunicative : {type: Boolean},
+                  read : {type: Boolean},
+                  gardening : {type: Boolean},
+                  cars : {type: Boolean},
+                  arts : {type: Boolean},
+                  sports : {type: Boolean},
+                  activeLifeStyle : {type: Boolean},
+                  work : {type: Boolean},
+                  withFriends : {type: Boolean},
+                  // communicative :checked : {type: Boolean, default: fal  
+                  youngAge : {type: Boolean},
+                  midAge : {type: Boolean},
+                  oldAge : {type: Boolean},
+                  // withChildren : {
+                  //   description:{ type: String, enum: "Еду с детьми", default: "Еду с детьми"},
+                  //   checked : {type: Boolean, default: false}
+                  // },
+                  noChildren : {type: Boolean, default: false}
+                  // noJews : {
+                  //   description:{ type: String, enum: "Ненавижу, блять, евреев", default: "Ненавижу, блять, евреев"},
+                  //   checked : {type: Boolean, default: false}
+                  // },
+                }
             }
         }]
     }]

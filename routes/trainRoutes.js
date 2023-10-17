@@ -9,26 +9,6 @@ const auth = require("../middleware/auth");
 
 router.use(express.json());
 
-// router.post("/", async (req, res) => {
-
-//   const routeObject = new TrainRoute({
-//     departureDate: req.body.departureDate,
-//     arrivalDate: req.body.arrivalDate,
-//     departureStation: req.body.departureStation,
-//     arrivalStation: req.body.arrivalStation,
-//     trainName: req.body.trainName,
-//     features: req.body.features,
-//     carriages: req.body.carriages
-    
-//   });
-//   routeObject
-//     .save()
-//     .then((result) =>
-//       res
-//         .send(result)
-//     )
-//     .catch((error) => res.status(400).send("Bad request " + error));
-// });
 
 router.get("/", async (req, res) => {
 
@@ -49,15 +29,34 @@ router.post("/", auth, async (req, res) => {
   const routeId = req.body.trainRouteId;
   const user = await User.findOne({_id: userId});
   const trainRoute = await TrainRoute.findOne({_id: routeId})
-
+  
   for(let i = 0; i < trainRoute.carriages.length; i++) {
     const cart = trainRoute.carriages[i];
+
     if(cart.number == carriage) {
-      trainRoute.carriages[i].seats[seat].isBooked = true;  
-      trainRoute.carriages[i].seats[seat].userBooked = {email: user.email, options: user.options}  
+      // console.log(user.options.travel.description)
+      trainRoute.carriages[i].seats[seat].isBooked = true;
+      trainRoute.carriages[i].seats[seat].userBooked.email = user.email;
+      trainRoute.carriages[i].seats[seat].userBooked.options = {
+        travel: user.options.travel.checked,
+        silence: user.options.silence.checked,
+        sleep: user.options.sleep.checked,
+        uncommunicative: user.options.uncommunicative.checked,
+        read: user.options.read.checked,
+        gardening: user.options.gardening.checked,
+        cars: user.options.cars.checked,
+        arts: user.options.arts.checked,
+        sports: user.options.sports.checked,
+        activeLifeStyle: user.options.activeLifeStyle.checked,
+        work: user.options.work.checked,
+        withFriends: user.options.withFriends.checked,
+        youngAge: user.options.youngAge.checked,
+        midAge: user.options.midAge.checked,
+        oldAge: user.options.oldAge.checked,
+        noChildren: user.options.noChildren.checked
+      }
     }
   }
-  
   trainRoute.save().then(result => res.send(result)).catch(e => res.status(400).send(e.message))
 })
 
