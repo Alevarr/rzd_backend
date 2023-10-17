@@ -42,7 +42,6 @@ router.post("/", async (req, res) => {
 router.post("/me", auth, async (req, res) => {
   req.body = req.body.params;
   if(!req.body.options) return res.status(400).send("Bad request");
-  console.log(req.body.options)
   User.updateOne({
     _id: req.user._id
   },
