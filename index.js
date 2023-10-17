@@ -26,7 +26,7 @@ app.use("/api/trainRoutes", trainRoutesRouter)
 app.use("/", homeRouter);
 require("./startup/prod")(app);
 
-const port = process.env.PORT || 8080;
+const port = process.env.PORT || 3000;
 app.listen(port, "localhost", () =>
   console.log(`Listening on port ${port}...`)
 );

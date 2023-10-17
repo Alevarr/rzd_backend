@@ -31,7 +31,7 @@ const userSchema = mongoose.Schema({
       checked : {type: Boolean, required: true, default: false}
     },
     silence : {
-      description:{ type: String, enum: "Мне нужна тишина", required: true, default: "Предпочитаю тишину"},
+      description:{ type: String, enum: "Мне нужна тишина", required: true, default: "Мне нужна тишина"},
       checked : {type: Boolean, required: true, default: false}
     },
     sleep : {
@@ -39,7 +39,7 @@ const userSchema = mongoose.Schema({
       checked : {type: Boolean, required: true, default: false}
     },
     uncommunicative : {
-      description:{ type: String, enum: "Не знакомлюсь с попутчиками", required: true, default: "Малообщительный"},
+      description:{ type: String, enum: "Не знакомлюсь с попутчиками", required: true, default: "Не знакомлюсь с попутчиками"},
       checked : {type: Boolean, required: true, default: false}
     },
     read : {
@@ -55,7 +55,7 @@ const userSchema = mongoose.Schema({
       checked : {type: Boolean, required: true, default: false}
     },
     arts : {
-      description:{ type: String, enum: "Творчество - мое все", required: true, default: "Люблю искусство/творчество"},
+      description:{ type: String, enum: "Творчество - мое все", required: true, default: "Творчество - мое все"},
       checked : {type: Boolean, required: true, default: false}
     },
     sports : {
@@ -67,7 +67,7 @@ const userSchema = mongoose.Schema({
       checked : {type: Boolean, required: true, default: false}
     },
     work : {
-      description:{ type: String, enum: "Работаю в тишине", required: true, default: "Желаю работать в тишине"},
+      description:{ type: String, enum: "Работаю в тишине", required: true, default: "Работаю в тишине"},
       checked : {type: Boolean, required: true, default: false}
     },
     withFriends : {
